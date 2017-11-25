@@ -1,4 +1,11 @@
 package factors;
 
-public class TimeFactor {
+import core.Factor;
+
+public class TimeFactor implements Factor {
+
+    public int calculateNumberOfPeople() {
+        return 0;
+    }
+
 }

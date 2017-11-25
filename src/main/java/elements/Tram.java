@@ -1,24 +1,13 @@
-package models;
+package elements;
+
+import models.PopulationCounter;
 
 public class Tram {
 
     private CurrentPosition currentPosition;
-    private int numberOfPeople;
 
-    public CurrentPosition getCurrentPosition() {
-        return currentPosition;
-    }
+    private Route route;
 
-    public void setCurrentPosition(CurrentPosition currentPosition) {
-        this.currentPosition = currentPosition;
-    }
-
-    public int getNumberOfPeople() {
-        return numberOfPeople;
-    }
-
-    public void setNumberOfPeople(int numberOfPeople) {
-        this.numberOfPeople = numberOfPeople;
-    }
+    private PopulationCounter populationCounter;
 
 }

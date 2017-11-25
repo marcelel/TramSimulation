@@ -1,4 +1,7 @@
 package core;
 
-public class Factor {
+public interface Factor {
+
+    public int calculateNumberOfPeople();
+
 }

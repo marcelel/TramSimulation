@@ -1,4 +1,11 @@
 package factors;
 
-public class StopFactor {
+import core.Factor;
+
+public class StopFactor implements Factor {
+
+    public int calculateNumberOfPeople() {
+        return 0;
+    }
+
 }

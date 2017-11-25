@@ -1,4 +1,11 @@
 package factors;
 
-public class LineFactor {
+import core.Factor;
+
+public class LineFactor implements Factor {
+
+    public int calculateNumberOfPeople() {
+        return 0;
+    }
+
 }

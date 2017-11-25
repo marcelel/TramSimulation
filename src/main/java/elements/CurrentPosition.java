@@ -1,4 +1,4 @@
-package models;
+package elements;
 
 public class CurrentPosition {
 

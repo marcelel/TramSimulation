@@ -1,4 +1,6 @@
-package models;
+package elements;
+
+import elements.Stop;
 
 import java.util.List;
 
