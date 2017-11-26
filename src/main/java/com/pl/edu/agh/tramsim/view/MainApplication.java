@@ -25,12 +25,14 @@ public class MainApplication extends Application {
     public void start(Stage primaryStage) throws IOException {
 //"http://maps.googleapis.com/maps/api/staticmap?center=48.167432,10.533072&size=565x565&zoom=7"
 
-        Image img = GoogleStaticMapsApi.requestImage(48.167432, 10.533072, 565, 565, 7);
+        Image img = GoogleStaticMapsApi.requestImage(52.2297, 21.0122, 565, 565, 7);
 
         System.out.println(img.getProgress());
 
         ImageView iv1 = new ImageView();
         iv1.setImage(img);
+
+        double deltax;
 
         Group root = new Group();
         Scene scene = new Scene(root);
@@ -39,18 +41,16 @@ public class MainApplication extends Application {
         box.getChildren().add(iv1);
         root.getChildren().add(box);
 
-        primaryStage.setTitle("ImageView");
-        primaryStage.setWidth(565);
-        primaryStage.setHeight(565);
-        primaryStage.setScene(scene);
-        primaryStage.sizeToScene();
-        primaryStage.show();
+        box.setLayoutX(100);
 
-        iv1.setOnMousePressed(new EventHandler<MouseEvent>() {
-            @Override public void handle(MouseEvent mouseEvent) {
-                System.out.println(scene.getX());
-                System.out.println(mouseEvent.getScreenX());
-            }
+        primaryStage.setTitle("ImageView");
+        primaryStage.setScene(scene);
+        primaryStage.setWidth(1280);
+        primaryStage.setHeight(720);
+
+        iv1.setOnMousePressed(mouseEvent -> {
+            System.out.println(scene.getX());
+            System.out.println(mouseEvent.getScreenX());
         });
 
         iv1.setOnMouseDragged(new EventHandler<MouseEvent>() {
@@ -58,6 +58,8 @@ public class MainApplication extends Application {
                 System.out.println(mouseEvent.getScreenX());
             }
         });
+
+        iv1.setFocusTraversable(true);
 
         primaryStage.show();
     }
