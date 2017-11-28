@@ -1,64 +1,90 @@
 package com.pl.edu.agh.tramsim.view;
 
 import javafx.application.Application;
-import javafx.embed.swing.SwingFXUtils;
-import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import javax.imageio.ImageIO;
 import java.io.IOException;
-import java.net.URL;
 
 public class MainApplication extends Application {
+
+    private static Logger logger = LoggerFactory.getLogger( MainApplication.class );
+
+    private int currentZoom = 10;
+
+    private double deltaDragX;
+    private double deltaDragY;
+
+    private ImageView iv1 = new ImageView();
+    private ImageView iv2 = new ImageView();
+
     public static void main(String[] args) throws IOException {
+        logger.info("Starting app");
         launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-//"http://maps.googleapis.com/maps/api/staticmap?center=48.167432,10.533072&size=565x565&zoom=7"
+        //Image img = GoogleStaticMapsApi.requestImage(52.1, 21.1, 565, 565, 8);
+        //Image img2 = GoogleStaticMapsApi.requestOffsettedImage(52.1, 21.1, 565, 565, 8, -1, 0);
 
-        Image img = GoogleStaticMapsApi.requestImage(48.167432, 10.533072, 565, 565, 7);
+        //iv1.setImage(img);
 
-        System.out.println(img.getProgress());
+        //iv2.setImage(img2);
 
-        ImageView iv1 = new ImageView();
-        iv1.setImage(img);
+        double deltax;
 
         Group root = new Group();
         Scene scene = new Scene(root);
         scene.setFill(Color.BLACK);
-        HBox box = new HBox();
-        box.getChildren().add(iv1);
-        root.getChildren().add(box);
+        Pane pane = GoogleStaticMapsApi.createMapPane(52, 21, 1280,720, 8).getPane();
+//        pane.getChildren().add(iv1);
+//        pane.getChildren().add(iv2);
+        iv2.setY(565);
+        root.getChildren().add(pane);
 
-        primaryStage.setTitle("ImageView");
-        primaryStage.setWidth(565);
-        primaryStage.setHeight(565);
+//        box.setOnScroll(event -> {
+//            double deltaY = event.getDeltaY();
+//            logger.trace("Scrolling detected");
+//            if (deltaY < 0){
+//                updateImages(false);
+//            } else {
+//                updateImages(true);
+//            }
+//        });
+
+        primaryStage.setTitle("TramSim");
         primaryStage.setScene(scene);
-        primaryStage.sizeToScene();
+        primaryStage.setWidth(1280);
+        primaryStage.setHeight(1080);
+
+//        iv2.setX(565);
+//
+//        box.setOnMousePressed(mouseEvent -> {
+//            logger.trace("Mouse pressed on " + mouseEvent.getScreenX());
+//            deltaDragX = mouseEvent.getScreenX();
+//        });
+//
+//        box.setOnMouseDragged(mouseEvent -> {
+//            iv1.setX(iv1.getX() + mouseEvent.getScreenX() - deltaDragX);
+//            iv2.setX(iv2.getX() + mouseEvent.getScreenX() - deltaDragX);
+//            deltaDragX = mouseEvent.getScreenX();
+//        });
+//
+//        box.setOnMouseReleased(mouseEvent -> {
+//            logger.trace("Mouse released on " + mouseEvent.getScreenX());
+//        });
+
         primaryStage.show();
 
-        iv1.setOnMousePressed(new EventHandler<MouseEvent>() {
-            @Override public void handle(MouseEvent mouseEvent) {
-                System.out.println(scene.getX());
-                System.out.println(mouseEvent.getScreenX());
-            }
-        });
-
-        iv1.setOnMouseDragged(new EventHandler<MouseEvent>() {
-            @Override public void handle(MouseEvent mouseEvent) {
-                System.out.println(mouseEvent.getScreenX());
-            }
-        });
-
-        primaryStage.show();
+        int a = 1;
+        System.out.println(a);
     }
 }
