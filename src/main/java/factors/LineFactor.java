@@ -2,10 +2,17 @@ package factors;
 
 import core.Factor;
 
-public class LineFactor implements Factor {
+import java.math.BigDecimal;
 
-    public int calculateNumberOfPeople() {
-        return 0;
+public class LineFactor extends Factor {
+
+    public LineFactor(BigDecimal initialValue) {
+        super(initialValue);
+    }
+
+    @Override
+    public BigDecimal calculateValue() {
+        return null;
     }
 
 }

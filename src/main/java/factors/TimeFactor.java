@@ -2,10 +2,16 @@ package factors;
 
 import core.Factor;
 
-public class TimeFactor implements Factor {
+import java.math.BigDecimal;
 
-    public int calculateNumberOfPeople() {
-        return 0;
+public class TimeFactor extends Factor {
+
+    public TimeFactor(BigDecimal initialValue) {
+        super(initialValue);
     }
 
+    @Override
+    public BigDecimal calculateValue() {
+        return null;
+    }
 }

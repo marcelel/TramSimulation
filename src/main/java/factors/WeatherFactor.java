@@ -4,10 +4,10 @@ import core.Factor;
 
 import java.math.BigDecimal;
 
-public class StopFactor extends Factor {
+public class WeatherFactor extends Factor {
 
-    public StopFactor(BigDecimal initialValue) {
-        super(initialValue);
+    public WeatherFactor(BigDecimal scalar) {
+        super(scalar);
     }
 
     @Override
