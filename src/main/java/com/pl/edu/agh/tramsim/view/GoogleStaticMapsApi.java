@@ -14,7 +14,8 @@ import java.net.URL;
 public class GoogleStaticMapsApi {
 
     public static final double zoomXOffset = 397.44;
-    public static final double zoomYOffset = 248.96;
+    public static final double zoomYOffset = 253;
+    //public static final double zoomYOffset = 248.96;
     private static final int retryTime = 100;
     private static final int retryCount = 5;
     private static Logger logger = LoggerFactory.getLogger( GoogleStaticMapsApi.class );
@@ -25,7 +26,7 @@ public class GoogleStaticMapsApi {
                 longitude + "&size=" +
                 width + "x" +
                 height + "&zoom=" +
-                zoom);
+                zoom + "&key=AIzaSyC8pP-6R-wOxZq7sovjTQLlTDIiPstsz00");
 
         for(int i=0;; ++i) {
             try {
@@ -120,14 +121,14 @@ class MapPane {
         pane.setOnScroll(event -> {
             logger.trace("Scrolling detected");
             if (event.getDeltaY() < 0){
-                moveImages(false);
+                zoomImages(false);
             } else {
-                moveImages(true);
+                zoomImages(true);
             }
         });
     }
 
-    private void moveImages(boolean zoomIn) {
+    private void zoomImages(boolean zoomIn) {
         try {
             if(zoom > 1 && zoom <= 12) {
                 zoom += zoomIn ? 1 : -1;
