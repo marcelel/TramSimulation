@@ -8,13 +8,13 @@ public class Tram {
 
     private Position currentPosition;
 
-    private Route route;
+    private TramRoute tramRoute;
 
     private PopulationCounter populationCounter;
 
-    public Tram(Position currentPosition, Route route, PopulationCounter populationCounter) {
+    public Tram(Position currentPosition, TramRoute tramRoute, PopulationCounter populationCounter) {
         this.currentPosition = currentPosition;
-        this.route = route;
+        this.tramRoute = tramRoute;
         this.populationCounter = populationCounter;
     }
 
@@ -34,12 +34,12 @@ public class Tram {
         this.currentPosition = currentPosition;
     }
 
-    public Route getRoute() {
-        return route;
+    public TramRoute getTramRoute() {
+        return tramRoute;
     }
 
-    public void setRoute(Route route) {
-        this.route = route;
+    public void setTramRoute(TramRoute tramRoute) {
+        this.tramRoute = tramRoute;
     }
 
     public PopulationCounter getPopulationCounter() {

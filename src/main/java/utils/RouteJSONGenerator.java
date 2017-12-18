@@ -22,8 +22,6 @@ public class RouteJSONGenerator {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RouteJSONGenerator.class);
 
-
-
     public static void generateJSON(String lineNumber, String stops) {
         List<String> lines = Arrays.asList("{\n", "\t\"route\": [\n", "\n");
         Path file = Paths.get("src/main/resources/routes/" + lineNumber + ".json");
