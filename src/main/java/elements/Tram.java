@@ -4,23 +4,33 @@ import models.PopulationCounter;
 
 public class Tram {
 
-    private CurrentPosition currentPosition;
+    private int number;
+
+    private Position currentPosition;
 
     private Route route;
 
     private PopulationCounter populationCounter;
 
-    public Tram(CurrentPosition currentPosition, Route route, PopulationCounter populationCounter) {
+    public Tram(Position currentPosition, Route route, PopulationCounter populationCounter) {
         this.currentPosition = currentPosition;
         this.route = route;
         this.populationCounter = populationCounter;
     }
 
-    public CurrentPosition getCurrentPosition() {
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public Position getCurrentPosition() {
         return currentPosition;
     }
 
-    public void setCurrentPosition(CurrentPosition currentPosition) {
+    public void setCurrentPosition(Position currentPosition) {
         this.currentPosition = currentPosition;
     }
 

@@ -1,0 +1,71 @@
+{
+   "route": [
+        
+        {"name":"Wzgórza Krzesławickie","value":0.9880956488342373},
+    
+        {"name":"Jarzębiny","value":0.544239348967487},
+    
+        {"name":"Darwina","value":0.8870243939051472},
+    
+        {"name":"Wiadukty","value":0.3126964634537224},
+    
+        {"name":"Elektromontaż","value":0.1858044174901594},
+    
+        {"name":"Zajezdnia Nowa Huta","value":0.19579962360108094},
+    
+        {"name":"Kombinat","value":0.46773065870953545},
+    
+        {"name":"Struga","value":0.16998699769444936},
+    
+        {"name":"Plac Centralny im. R.Reagana","value":0.9577863093462969},
+    
+        {"name":"Os.Kolorowe","value":0.8699924709509399},
+    
+        {"name":"Rondo Czyżyńskie","value":0.4239586877029613},
+    
+        {"name":"Czyżyny","value":0.9209503345282936},
+    
+        {"name":"Stella-Sawickiego","value":0.8083007018421122},
+    
+        {"name":"AWF","value":0.8619742996408193},
+    
+        {"name":"Muzeum Lotnictwa","value":0.3636738982438421},
+    
+        {"name":"TAURON Arena Kraków Wieczysta","value":0.527032827594209},
+    
+        {"name":"Białucha","value":0.9297756449004282},
+    
+        {"name":"Cystersów","value":0.9947692001803943},
+    
+        {"name":"Rondo Mogilskie","value":0.7221469892992064},
+    
+        {"name":"Lubicz","value":0.017354583711303495},
+    
+        {"name":"Dworzec Główny","value":0.9123813679544661},
+    
+        {"name":"Stary Kleparz","value":0.6534651776466521},
+    
+        {"name":"Teatr Bagatela","value":0.2661102643607103},
+    
+        {"name":"Batorego","value":0.7501629717923229},
+    
+        {"name":"Plac Inwalidów","value":0.6956380968891078},
+    
+        {"name":"Urzędnicza","value":0.8993637449459437},
+    
+        {"name":"Biprostal","value":0.33556236871362966},
+    
+        {"name":"Uniwersytet Pedagogiczny","value":0.5446110292596054},
+    
+        {"name":"Głowackiego","value":0.22909581598729656},
+    
+        {"name":"Bronowice","value":0.009518913952251906},
+    
+        {"name":"Wesele","value":0.5850555575367143},
+    
+        {"name":"Bronowice Wiadukt","value":0.8898751651109136},
+    
+        {"name":"Bronowice Małe","value":0.7413379144540208},
+
+   ]
+}

@@ -1,6 +1,10 @@
 package core;
 
+import elements.Tram;
+
 import java.math.BigDecimal;
+
+public abstract class Factor {
 
     protected final BigDecimal initialValue;
     protected BigDecimal scalar;
@@ -49,6 +53,6 @@ import java.math.BigDecimal;
         return value.multiply(weight);
     }
 
-    public abstract BigDecimal calculateValue();
+    public abstract BigDecimal calculateValue(Tram tram);
 
 }
