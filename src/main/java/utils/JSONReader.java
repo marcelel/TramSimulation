@@ -55,7 +55,7 @@ public class JSONReader<T> {
         Gson gson = new Gson();
         JSONParser parser = new JSONParser();
         try {
-            JSONObject jsonObject = (JSONObject) parser.parse(new FileReader("src/main/resources/lines.json"));
+            JSONObject jsonObject = (JSONObject) parser.parse(new FileReader("src/main/resources/export.json"));
             JSONArray features = (JSONArray) jsonObject.get("features");
             for (int i = 0; i < features.size(); i++) {
                 JSONObject element = (JSONObject) features.get(i);

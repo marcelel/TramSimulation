@@ -14,9 +14,11 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import utils.JSONReader;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 
 public class MainApplication extends Application {
 
@@ -37,11 +39,11 @@ public class MainApplication extends Application {
         Scene scene = new Scene(root);
         scene.setFill(Color.BLACK);
 
-        Canvas canvas = new Canvas(300, 250);
+        Canvas canvas = new Canvas(1280, 720);
         GraphicsContext gc = canvas.getGraphicsContext2D();
 
 
-        /* ************************* */
+        /* ************************* /
 
         RouteMap routeMap = new RouteMap();
         Route route1 = new Route();
@@ -65,8 +67,12 @@ public class MainApplication extends Application {
         routeMap.routes.add(route1);
         routeMap.routes.add(route2);
 
-
         /* ************************* */
+
+        List<List<Position>> l = JSONReader.readCoordinatesFromFile("");
+
+        RouteMap routeMap = new RouteMap();
+        l.forEach(list -> routeMap.routes.add(new Route(list)));
 
         drawTramMap(gc, routeMap);
 
@@ -84,11 +90,11 @@ public class MainApplication extends Application {
     }
 
     void translateCoords(Position p) {
-        double cutLeft = 20.0647;
-        double cutTop = 50.0867;
+        double cutLeft = 19.8803;
+        double cutTop = 50.0624;
 
-        double Vcoeff = 500000;
-        double Hcoeff = 500000;
+        double Vcoeff = 6000;
+        double Hcoeff = 6000;
 
         p.setX((p.getX() - cutLeft)*Hcoeff);
         p.setY((p.getY() - cutTop)*Vcoeff);
