@@ -1,0 +1,4938 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-12-17T23:55:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207477286",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo 308 Dywizjonu",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0070834,
+          50.0678356
+        ]
+      },
+      "id": "node/207477286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207529608",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Akacjowa",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9775416,
+          50.0815778
+        ]
+      },
+      "id": "node/207529608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/207532841",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tauron Arena Kraków Wieczysta",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9828147,
+          50.0717679
+        ]
+      },
+      "id": "node/207532841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/226010198",
+        "bench": "yes",
+        "bus": "yes",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9441441,
+          50.0672786
+        ]
+      },
+      "id": "node/226010198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/261677483",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wawel",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9396039,
+          50.0544615
+        ]
+      },
+      "id": "node/261677483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/277929321",
+        "bus": "yes",
+        "name": "Plac Inwalidów",
+        "public_transport": "stop_position",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9260064,
+          50.0688174
+        ]
+      },
+      "id": "node/277929321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278225260",
+        "bus": "yes",
+        "name": "Centrum Kongresowe ICE",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9296579,
+          50.0482597
+        ]
+      },
+      "id": "node/278225260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/290915776",
+        "bus": "yes",
+        "name": "Dworzec Płaszów",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9731696,
+          50.034611
+        ]
+      },
+      "id": "node/290915776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/322053408",
+        "bus": "yes",
+        "name": "Kamieńskiego Wiadukt",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9492051,
+          50.0311378
+        ]
+      },
+      "id": "node/322053408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/322061159",
+        "amenity": "bus_station",
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Łagiewniki",
+        "public_transport": "stop_position",
+        "shelter": "no",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0553.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.936345,
+          50.0301212
+        ]
+      },
+      "id": "node/322061159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/322936537",
+        "bus": "yes",
+        "name": "Malborska",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9732299,
+          50.0264611
+        ]
+      },
+      "id": "node/322936537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470208460",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Plac Wolnica",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0820.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9431933,
+          50.0484407
+        ]
+      },
+      "id": "node/470208460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470208464",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Plac Wolnica",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0820.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9435344,
+          50.0479708
+        ]
+      },
+      "id": "node/470208464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470210912",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Stradom",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9408696,
+          50.0514196
+        ]
+      },
+      "id": "node/470210912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470211999",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Starowiślna",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0807.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9458276,
+          50.0573638
+        ]
+      },
+      "id": "node/470211999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470619791",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mazowiecka",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9177301,
+          50.0779582
+        ]
+      },
+      "id": "node/470619791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/529102613",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Salwator",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0301.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9168309,
+          50.0529361
+        ]
+      },
+      "id": "node/529102613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/622594622",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kabel",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0645.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9761127,
+          50.0273366
+        ]
+      },
+      "id": "node/622594622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/622594626",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworcowa",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0644.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9700515,
+          50.033569
+        ]
+      },
+      "id": "node/622594626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/622594628",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworcowa",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0644.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9706198,
+          50.0326561
+        ]
+      },
+      "id": "node/622594628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/630945148",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Centrum Kongresowe ICE",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "shelter": "yes",
+        "tram": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0501.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9310383,
+          50.0485659
+        ]
+      },
+      "id": "node/630945148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/632417955",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cichy Kącik",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0347.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9034855,
+          50.0630556
+        ]
+      },
+      "id": "node/632417955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/638606035",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hala Targowa",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9488546,
+          50.058664
+        ]
+      },
+      "id": "node/638606035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/682383247",
+        "bus": "yes",
+        "name": "Kampus UJ",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0291.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9016681,
+          50.0238831
+        ]
+      },
+      "id": "node/682383247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/682383328",
+        "bus": "yes",
+        "name": "Ruczaj",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0706.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9051418,
+          50.0267058
+        ]
+      },
+      "id": "node/682383328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/682383330",
+        "bus": "yes",
+        "name": "Norymberska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0527.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9120545,
+          50.029523
+        ]
+      },
+      "id": "node/682383330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/703862618",
+        "bus": "yes",
+        "name": "Makowa",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9659138,
+          50.0273036
+        ]
+      },
+      "id": "node/703862618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/703862619",
+        "bus": "yes",
+        "name": "Makowa",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9666553,
+          50.0271277
+        ]
+      },
+      "id": "node/703862619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724161215",
+        "bus": "yes",
+        "bus_numbers": "304",
+        "highway": "bus_stop",
+        "name": "Rondo Matecznego",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0558.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9410273,
+          50.0367981
+        ]
+      },
+      "id": "node/724161215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724161221",
+        "bus": "yes",
+        "name": "Rondo Matecznego",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0558.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9399944,
+          50.0369194
+        ]
+      },
+      "id": "node/724161221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724399298",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nowy Kleparz",
+        "public_transport": "stop_position",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.935136,
+          50.0738045
+        ]
+      },
+      "id": "node/724399298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724399307",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nowy Kleparz",
+        "public_transport": "stop_position",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9361826,
+          50.0747733
+        ]
+      },
+      "id": "node/724399307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724399308",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nowy Kleparz",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9371286,
+          50.0736292
+        ]
+      },
+      "id": "node/724399308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724399314",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nowy Kleparz",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9363818,
+          50.0742044
+        ]
+      },
+      "id": "node/724399314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724399316",
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Plac Inwalidów",
+        "public_transport": "stop_position",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9269577,
+          50.0694118
+        ]
+      },
+      "id": "node/724399316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/726752294",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kawiory",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9136224,
+          50.0684483
+        ]
+      },
+      "id": "node/726752294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/755866637",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grota Roweckiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0526.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.920189,
+          50.0317233
+        ]
+      },
+      "id": "node/755866637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/755866934",
+        "bus": "yes",
+        "name": "Lipińskiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0528.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9246915,
+          50.030538
+        ]
+      },
+      "id": "node/755866934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/761631138",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Zdrowa",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9380701,
+          50.0889038
+        ]
+      },
+      "id": "node/761631138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/761631152",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lekarska",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9384926,
+          50.0868902
+        ]
+      },
+      "id": "node/761631152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/761631161",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lekarska",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9382396,
+          50.0865319
+        ]
+      },
+      "id": "node/761631161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/764700120",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malczewskiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0302.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9030955,
+          50.0497502
+        ]
+      },
+      "id": "node/764700120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/764700124",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kopiec Kościuszki",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0319.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8926176,
+          50.0552354
+        ]
+      },
+      "id": "node/764700124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/766068092",
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Cichy Kącik",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0347.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9026636,
+          50.0627441
+        ]
+      },
+      "id": "node/766068092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/768870351",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lublańska",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9635516,
+          50.0849141
+        ]
+      },
+      "id": "node/768870351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/768870353",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Opolska Estakada",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9554694,
+          50.085715
+        ]
+      },
+      "id": "node/768870353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/768870355",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lublańska",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9619504,
+          50.0852407
+        ]
+      },
+      "id": "node/768870355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815434550",
+        "bus": "yes",
+        "name": "Konopnickiej",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9294955,
+          50.0527488
+        ]
+      },
+      "id": "node/815434550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815434557",
+        "bus": "yes",
+        "name": "Konopnickiej",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9292968,
+          50.0528688
+        ]
+      },
+      "id": "node/815434557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569056",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Matecznego",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.940089,
+          50.0371341
+        ]
+      },
+      "id": "node/815569056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569058",
+        "bus": "yes",
+        "name": "Chopina",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9172659,
+          50.0676031
+        ]
+      },
+      "id": "node/815569058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569081",
+        "bus": "yes",
+        "name": "Jubilat",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9268192,
+          50.0560977
+        ]
+      },
+      "id": "node/815569081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569099",
+        "bus": "yes",
+        "name": "Kawiory",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9128497,
+          50.0683048
+        ]
+      },
+      "id": "node/815569099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569102",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8989723,
+          50.0706985
+        ]
+      },
+      "id": "node/815569102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569107",
+        "bus": "yes",
+        "name": "Centrum Kongresowe ICE",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9321612,
+          50.0496527
+        ]
+      },
+      "id": "node/815569107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569108",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8977764,
+          50.0709795
+        ]
+      },
+      "id": "node/815569108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569133",
+        "bus": "yes",
+        "name": "Malborska",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9729604,
+          50.0264335
+        ]
+      },
+      "id": "node/815569133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569148",
+        "bus": "yes",
+        "name": "Kamieńskiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9569319,
+          50.028959
+        ]
+      },
+      "id": "node/815569148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/815569163",
+        "bus": "yes",
+        "name": "AGH/UR",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9232201,
+          50.0627382
+        ]
+      },
+      "id": "node/815569163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/827098645",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cmentarz Rakowicki",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9585852,
+          50.0736514
+        ]
+      },
+      "id": "node/827098645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/930202017",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo 308. Dywizjonu",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0056728,
+          50.0672031
+        ]
+      },
+      "id": "node/930202017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/932454911",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Grzegórzeckie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0809.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9601627,
+          50.057738
+        ]
+      },
+      "id": "node/932454911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/957085215",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kapelanka",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9223863,
+          50.0456678
+        ]
+      },
+      "id": "node/957085215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/957085217",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Słomiana",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0524.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9241905,
+          50.0406838
+        ]
+      },
+      "id": "node/957085217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/957085219",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Szwedzka",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0522.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9253466,
+          50.0467329
+        ]
+      },
+      "id": "node/957085219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/960029037",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo 308 Dywizjonu",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0045309,
+          50.0677555
+        ]
+      },
+      "id": "node/960029037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/963335590",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Narzymskiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9661397,
+          50.0736306
+        ]
+      },
+      "id": "node/963335590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/963659892",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cmentarz Rakowicki",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9588521,
+          50.0737221
+        ]
+      },
+      "id": "node/963659892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1027047765",
+        "bus": "yes",
+        "bus_numbers": "304",
+        "name": "Dworzec Główny Zachód",
+        "network": "304",
+        "public_transport": "stop_position",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9434226,
+          50.0672766
+        ]
+      },
+      "id": "node/1027047765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1027047775",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny Zachód",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9447256,
+          50.06728
+        ]
+      },
+      "id": "node/1027047775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1027047782",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny",
+        "name:de": "Hauptbahnhof",
+        "name:pl": "Dworzec Główny",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0801.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9450192,
+          50.0653698
+        ]
+      },
+      "id": "node/1027047782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1058513008",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Zabłocie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0619.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.96217,
+          50.0510605
+        ]
+      },
+      "id": "node/1058513008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1086302901",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0642.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9612285,
+          50.0417682
+        ]
+      },
+      "id": "node/1086302901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118677964",
+        "bus": "yes",
+        "bus_numbers": "124;152;304;502;522;601;608;618;902",
+        "highway": "bus_stop",
+        "name": "Teatr Bagatela",
+        "name:de": "Bagatela-Theater",
+        "name:pl": "Teatr Bagatela",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0827.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9334285,
+          50.0639001
+        ]
+      },
+      "id": "node/1118677964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118677965",
+        "bus": "yes",
+        "bus_numbers": "124;152;424;601;608;610;618;902",
+        "highway": "bus_stop",
+        "name": "Stary Kleparz",
+        "name:de": "Alt Klöpper",
+        "name:pl": "Stary Kleparz",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0833.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9386405,
+          50.066175
+        ]
+      },
+      "id": "node/1118677965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118677966",
+        "bus": "yes",
+        "bus_numbers": "124;152;601;608;610;618;902",
+        "highway": "bus_stop",
+        "name": "Stary Kleparz",
+        "name:de": "Alt Klöpper",
+        "name:pl": "Stary Kleparz",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0833.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9404565,
+          50.0662044
+        ]
+      },
+      "id": "node/1118677966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118677968",
+        "bus": "yes",
+        "bus_numbers": "304",
+        "highway": "bus_stop",
+        "name": "Filharmonia",
+        "name:de": "Philharmonie",
+        "name:pl": "Filharmonia",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0822.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9334287,
+          50.0585396
+        ]
+      },
+      "id": "node/1118677968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118677970",
+        "bus": "yes",
+        "bus_numbers": "124;152;304;424;502;522;601;608;618;902",
+        "highway": "bus_stop",
+        "name": "Teatr Bagatela",
+        "name:de": "Bagatela-Theater",
+        "name:pl": "Teatr Bagatela",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0827.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9325725,
+          50.0630669
+        ]
+      },
+      "id": "node/1118677970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118677978",
+        "bus": "yes",
+        "bus_numbers": "304",
+        "highway": "bus_stop",
+        "name": "Korona",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0556.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.946539,
+          50.0434311
+        ]
+      },
+      "id": "node/1118677978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1378565629",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice Wiadukt",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8887528,
+          50.0815788
+        ]
+      },
+      "id": "node/1378565629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1378565639",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice Małe",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0360.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8822847,
+          50.0821881
+        ]
+      },
+      "id": "node/1378565639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1378565641",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice Małe",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8817866,
+          50.0821281
+        ]
+      },
+      "id": "node/1378565641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1378565659",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice Wiadukt",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8908141,
+          50.0813222
+        ]
+      },
+      "id": "node/1378565659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1389309035",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tischnera",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9453456,
+          50.0294528
+        ]
+      },
+      "id": "node/1389309035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1402449058",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9625466,
+          50.0418694
+        ]
+      },
+      "id": "node/1402449058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1443247280",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Salwator",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0301.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9166174,
+          50.0530822
+        ]
+      },
+      "id": "node/1443247280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1443247284",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Salwator",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0301.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9168755,
+          50.0532294
+        ]
+      },
+      "id": "node/1443247284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1454515763",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Klimeckiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0294.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9676706,
+          50.0491252
+        ]
+      },
+      "id": "node/1454515763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1454516119",
+        "bus": "yes",
+        "name": "Stoczniowców",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9811192,
+          50.0495615
+        ]
+      },
+      "id": "node/1454516119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1484742204",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Czerwieńskiego",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9024375,
+          50.0839684
+        ]
+      },
+      "id": "node/1484742204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1503617812",
+        "bus": "yes",
+        "name": "Rondo Mogilskie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0802.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9603454,
+          50.0656168
+        ]
+      },
+      "id": "node/1503617812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1562710550",
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "name": "Mały Płaszów",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0012608,
+          50.040186
+        ]
+      },
+      "id": "node/1562710550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563086695",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Płaszów Szkoła",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.991787,
+          50.0372109
+        ]
+      },
+      "id": "node/1563086695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563086702",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Motyla",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9970869,
+          50.0375045
+        ]
+      },
+      "id": "node/1563086702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182470",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9632979,
+          50.0419993
+        ]
+      },
+      "id": "node/1563182470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182551",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9635764,
+          50.042041
+        ]
+      },
+      "id": "node/1563182551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182790",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9629782,
+          50.0421496
+        ]
+      },
+      "id": "node/1563182790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182814",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9630648,
+          50.0421636
+        ]
+      },
+      "id": "node/1563182814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182873",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9631591,
+          50.0421773
+        ]
+      },
+      "id": "node/1563182873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182910",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9632552,
+          50.0421916
+        ]
+      },
+      "id": "node/1563182910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182924",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9633427,
+          50.0422055
+        ]
+      },
+      "id": "node/1563182924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563182972",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9634301,
+          50.0422155
+        ]
+      },
+      "id": "node/1563182972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563183342",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9634082,
+          50.042419
+        ]
+      },
+      "id": "node/1563183342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1563183370",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.963637,
+          50.0424522
+        ]
+      },
+      "id": "node/1563183370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1611745644",
+        "bus": "yes",
+        "name": "Lipska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9833845,
+          50.0413466
+        ]
+      },
+      "id": "node/1611745644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1638116198",
+        "bus": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0416.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9320318,
+          50.088092
+        ]
+      },
+      "id": "node/1638116198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1642573829",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wrocławska",
+        "public_transport": "stop_position",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9267813,
+          50.0770322
+        ]
+      },
+      "id": "node/1642573829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1642948143",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Pielęgniarek",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9367834,
+          50.0834837
+        ]
+      },
+      "id": "node/1642948143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1692072704",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0357.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9009034,
+          50.0779104
+        ]
+      },
+      "id": "node/1692072704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1693481285",
+        "bus": "yes",
+        "name": "Cracovia Błonia",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9219708,
+          50.0588744
+        ]
+      },
+      "id": "node/1693481285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1693481290",
+        "bus": "yes",
+        "name": "Cracovia Stadion",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9226254,
+          50.0583799
+        ]
+      },
+      "id": "node/1693481290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1693481304",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Muzeum Narodowe",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "tactile_paving": "no",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0825.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9250824,
+          50.0598184
+        ]
+      },
+      "id": "node/1693481304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1701857267",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mały Płaszów",
+        "public_transport": "platform",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0006147,
+          50.0395392
+        ]
+      },
+      "id": "node/1701857267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1702741882",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Francesco Nullo",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9667161,
+          50.0600876
+        ]
+      },
+      "id": "node/1702741882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1702741891",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Francesco Nullo",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9678386,
+          50.0601772
+        ]
+      },
+      "id": "node/1702741891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1702742001",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Grzegórzeckie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0809.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.959394,
+          50.0583268
+        ]
+      },
+      "id": "node/1702742001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1726904246",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Salwator",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0301.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9143091,
+          50.0525297
+        ]
+      },
+      "id": "node/1726904246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1753924336",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Grzegórzeckie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0809.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9587161,
+          50.0569861
+        ]
+      },
+      "id": "node/1753924336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1753924337",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Grzegórzeckie",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0809.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9577134,
+          50.0576408
+        ]
+      },
+      "id": "node/1753924337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1782936486",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Conrada",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8983666,
+          50.0885891
+        ]
+      },
+      "id": "node/1782936486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1782936624",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Radzikowskiego Osiedle",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8939954,
+          50.0863426
+        ]
+      },
+      "id": "node/1782936624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1782936646",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Conrada",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9000559,
+          50.0885711
+        ]
+      },
+      "id": "node/1782936646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1782936711",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Fiszera",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8968694,
+          50.0855053
+        ]
+      },
+      "id": "node/1782936711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1822952272",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Słomiana",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0524.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9244567,
+          50.04075
+        ]
+      },
+      "id": "node/1822952272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1875019705",
+        "bus": "yes",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9136948,
+          50.0734449
+        ]
+      },
+      "id": "node/1875019705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1882247951",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Borsucza",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0551.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9282331,
+          50.0304092
+        ]
+      },
+      "id": "node/1882247951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1883217642",
+        "bus": "yes",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9137939,
+          50.0684241
+        ]
+      },
+      "id": "node/1883217642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1883217643",
+        "bus": "yes",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9138768,
+          50.0687694
+        ]
+      },
+      "id": "node/1883217643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1883217644",
+        "bus": "yes",
+        "name": "Mazowiecka",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9180411,
+          50.0785115
+        ]
+      },
+      "id": "node/1883217644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1883217645",
+        "bus": "yes",
+        "name": "Mazowiecka",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9178359,
+          50.0779217
+        ]
+      },
+      "id": "node/1883217645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1896737153",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Łagiewniki",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0553.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9375391,
+          50.0288065
+        ]
+      },
+      "id": "node/1896737153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1896737155",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Łagiewniki",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0553.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9362232,
+          50.0288123
+        ]
+      },
+      "id": "node/1896737155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1963737376",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny Wschód",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9494429,
+          50.0684474
+        ]
+      },
+      "id": "node/1963737376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1978631747",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Krowodrza Górka",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0416.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9307238,
+          50.0884275
+        ]
+      },
+      "id": "node/1978631747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740099",
+        "bus": "yes",
+        "name": "Kapelanka",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9227551,
+          50.0432183
+        ]
+      },
+      "id": "node/2087740099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740100",
+        "bus": "yes",
+        "name": "Kobierzyńska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0525.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9255598,
+          50.0341814
+        ]
+      },
+      "id": "node/2087740100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740102",
+        "bus": "yes",
+        "name": "Krowoderskich Zuchów",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9262478,
+          50.0888593
+        ]
+      },
+      "id": "node/2087740102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740104",
+        "bus": "yes",
+        "name": "Norymberska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0527.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9133227,
+          50.0293793
+        ]
+      },
+      "id": "node/2087740104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740106",
+        "bus": "yes",
+        "name": "Rostworowskiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.91425,
+          50.0285131
+        ]
+      },
+      "id": "node/2087740106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740107",
+        "bench": "yes",
+        "bus": "yes",
+        "name": "Stachiewicza",
+        "public_transport": "stop_position",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9163107,
+          50.0849657
+        ]
+      },
+      "id": "node/2087740107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740108",
+        "bus": "yes",
+        "name": "Słomiana",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9243,
+          50.040666
+        ]
+      },
+      "id": "node/2087740108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740109",
+        "bus": "yes",
+        "name": "Słomiana",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9243788,
+          50.0407473
+        ]
+      },
+      "id": "node/2087740109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087740110",
+        "bus": "yes",
+        "name": "Łobzów SKA",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9162522,
+          50.0815805
+        ]
+      },
+      "id": "node/2087740110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2098694987",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Poczta Główna",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0806.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.94284,
+          50.0593448
+        ]
+      },
+      "id": "node/2098694987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2108875352",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Miechowity",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9689279,
+          50.0833485
+        ]
+      },
+      "id": "node/2108875352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2121150540",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Świętego Wawrzyńca",
+        "public_transport": "stop_position",
+        "tactile_paving": "no",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0816.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9509414,
+          50.051182
+        ]
+      },
+      "id": "node/2121150540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193258236",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Ofiar Katynia",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8927547,
+          50.0873304
+        ]
+      },
+      "id": "node/2193258236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193258385",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Ofiar Katynia",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8923248,
+          50.0881226
+        ]
+      },
+      "id": "node/2193258385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193258401",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Ofiar Katynia",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8910979,
+          50.0866169
+        ]
+      },
+      "id": "node/2193258401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2269397316",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lubicz",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9511017,
+          50.065066
+        ]
+      },
+      "id": "node/2269397316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2269400772",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny Wschód",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9493754,
+          50.0685047
+        ]
+      },
+      "id": "node/2269400772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2396064843",
+        "bus": "yes",
+        "name": "Lipińskiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0528.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9247811,
+          50.0306268
+        ]
+      },
+      "id": "node/2396064843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403408326",
+        "bus": "yes",
+        "name": "Jubilat",
+        "public_transport": "stop_position",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9270386,
+          50.0563759
+        ]
+      },
+      "id": "node/2403408326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2418596863",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Szwedzka",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0522.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9255938,
+          50.0467789
+        ]
+      },
+      "id": "node/2418596863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2420246141",
+        "bus": "yes",
+        "name": "Rondo Grzegórzeckie",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0809.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9577358,
+          50.0575518
+        ]
+      },
+      "id": "node/2420246141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2420263459",
+        "bus": "yes",
+        "name": "Starowiślna",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0807.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.946129,
+          50.0573087
+        ]
+      },
+      "id": "node/2420263459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2420719963",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny",
+        "name:de": "Hauptbahnhof",
+        "name:pl": "Dworzec Główny",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0801.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9445221,
+          50.0647732
+        ]
+      },
+      "id": "node/2420719963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2421493334",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Łagiewniki",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0553.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9360081,
+          50.0294346
+        ]
+      },
+      "id": "node/2421493334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2421772374",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Podgórze SKA",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0642.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9607199,
+          50.0425927
+        ]
+      },
+      "id": "node/2421772374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2421869519",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kabel",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0645.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9766582,
+          50.0271053
+        ]
+      },
+      "id": "node/2421869519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2422242783",
+        "bus": "yes",
+        "name": "Kobierzyńska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0525.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9257511,
+          50.0340943
+        ]
+      },
+      "id": "node/2422242783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2422656435",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Centrum Kongresowe ICE",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "shelter": "yes",
+        "tram": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0501.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9309536,
+          50.0485728
+        ]
+      },
+      "id": "node/2422656435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2423003234",
+        "bus": "yes",
+        "name": "Starowiślna",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0807.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9460278,
+          50.0572586
+        ]
+      },
+      "id": "node/2423003234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2423487758",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny",
+        "name:de": "Hauptbahnhof",
+        "name:pl": "Dworzec Główny",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0801.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9455796,
+          50.0646655
+        ]
+      },
+      "id": "node/2423487758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2423856718",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Krowodrza Górka",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0416.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9314233,
+          50.0883731
+        ]
+      },
+      "id": "node/2423856718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2424028126",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lubicz",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9526098,
+          50.0652403
+        ]
+      },
+      "id": "node/2424028126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2424088455",
+        "bus": "yes",
+        "name": "Hala Targowa",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0808.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9488829,
+          50.058652
+        ]
+      },
+      "id": "node/2424088455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2424088456",
+        "bus": "yes",
+        "name": "Hala Targowa",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0808.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9488242,
+          50.0586812
+        ]
+      },
+      "id": "node/2424088456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2425638913",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Komorowskiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0300.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9218971,
+          50.0533742
+        ]
+      },
+      "id": "node/2425638913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2425638914",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Komorowskiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0300.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9217971,
+          50.0534368
+        ]
+      },
+      "id": "node/2425638914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2425643911",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Salwator",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0301.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9154051,
+          50.0527327
+        ]
+      },
+      "id": "node/2425643911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2427959525",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0357.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9024896,
+          50.0771141
+        ]
+      },
+      "id": "node/2427959525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2427959527",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Głowackiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0169.htm",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9050588,
+          50.0761979
+        ]
+      },
+      "id": "node/2427959527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2428176231",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Białucha",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0804.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.978441,
+          50.0681207
+        ]
+      },
+      "id": "node/2428176231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2428176236",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Białucha",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0804.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9787034,
+          50.067972
+        ]
+      },
+      "id": "node/2428176236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2429481391",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice Wiadukt",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.890639,
+          50.0808526
+        ]
+      },
+      "id": "node/2429481391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2429481392",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice Wiadukt",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8905256,
+          50.0815475
+        ]
+      },
+      "id": "node/2429481392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431465496",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mały Płaszów",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9995256,
+          50.0399635
+        ]
+      },
+      "id": "node/2431465496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520650",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gromadzka",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9771263,
+          50.0405152
+        ]
+      },
+      "id": "node/2431520650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520651",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gromadzka",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9768425,
+          50.0408098
+        ]
+      },
+      "id": "node/2431520651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520652",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Klimeckiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0294.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9684031,
+          50.0483775
+        ]
+      },
+      "id": "node/2431520652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520654",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kuklińskiego",
+        "operator": "MPK Kraków",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0670.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9732512,
+          50.0445182
+        ]
+      },
+      "id": "node/2431520654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520655",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kuklińskiego",
+        "operator": "MPK Kraków",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9721309,
+          50.0449656
+        ]
+      },
+      "id": "node/2431520655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520656",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kuklińskiego",
+        "operator": "MPK Kraków",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0670.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9732237,
+          50.045599
+        ]
+      },
+      "id": "node/2431520656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520657",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lipska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9838745,
+          50.0405298
+        ]
+      },
+      "id": "node/2431520657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520658",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lipska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.982377,
+          50.0408283
+        ]
+      },
+      "id": "node/2431520658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520661",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rzebika",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0671.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9924357,
+          50.04033
+        ]
+      },
+      "id": "node/2431520661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431520662",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rzebika",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9910018,
+          50.0406765
+        ]
+      },
+      "id": "node/2431520662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2437481058",
+        "bus": "yes",
+        "name": "Kampus UJ",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0291.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9024108,
+          50.024641
+        ]
+      },
+      "id": "node/2437481058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2437481063",
+        "bus": "yes",
+        "name": "Ruczaj",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0706.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9065373,
+          50.0271161
+        ]
+      },
+      "id": "node/2437481063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2437595375",
+        "bus": "yes",
+        "name": "Grota-Roweckiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0526.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9202518,
+          50.0312793
+        ]
+      },
+      "id": "node/2437595375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2439545243",
+        "bus": "yes",
+        "name": "Norymberska",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0527.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9134997,
+          50.0299857
+        ]
+      },
+      "id": "node/2439545243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2443511274",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny Wschód",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9493361,
+          50.0685635
+        ]
+      },
+      "id": "node/2443511274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2443511275",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dworzec Główny Wschód",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9492918,
+          50.0687107
+        ]
+      },
+      "id": "node/2443511275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2449726050",
+        "bus": "yes",
+        "name": "Mały Płaszów",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9995348,
+          50.0398988
+        ]
+      },
+      "id": "node/2449726050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2461475368",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bronowice Małe",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8830154,
+          50.0820952
+        ]
+      },
+      "id": "node/2461475368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2461498624",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Zarzecze",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8886762,
+          50.0769265
+        ]
+      },
+      "id": "node/2461498624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2576893077",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Miasteczko Studenckie AGH",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9065916,
+          50.0696646
+        ]
+      },
+      "id": "node/2576893077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2611219192",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Jubilat",
+        "shelter": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9271638,
+          50.0564284
+        ]
+      },
+      "id": "node/2611219192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3071496535",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Grzegórzeckie",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9591984,
+          50.05843
+        ]
+      },
+      "id": "node/3071496535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3074574715",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Konfederacka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9258888,
+          50.0496526
+        ]
+      },
+      "id": "node/3074574715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3118491163",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "platform",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9547346,
+          50.0467641
+        ]
+      },
+      "id": "node/3118491163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3120751850",
+        "bus": "yes",
+        "highway": "no",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9553562,
+          50.0464453
+        ]
+      },
+      "id": "node/3120751850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3178726662",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Os. Podwawelskie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9327491,
+          50.0459328
+        ]
+      },
+      "id": "node/3178726662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3673333347",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Grzegórzeckie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9577334,
+          50.0575362
+        ]
+      },
+      "id": "node/3673333347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3673352970",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Starowiślna",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9460797,
+          50.0572828
+        ]
+      },
+      "id": "node/3673352970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3673556146",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Mogilskie",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9574673,
+          50.0656205
+        ]
+      },
+      "id": "node/3673556146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3673756914",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malborska",
+        "network": "Komunikacja Miejska w Krakowie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9728026,
+          50.026416
+        ]
+      },
+      "id": "node/3673756914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3673780047",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sułkowskiego",
+        "network": "Komunikacja Miejska w Krakowie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9692624,
+          50.0237645
+        ]
+      },
+      "id": "node/3673780047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3674135625",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Matecznego",
+        "network": "Komunikacja Miejska w Krakowie",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9398674,
+          50.036918
+        ]
+      },
+      "id": "node/3674135625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3833811680",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Słonecznikowa",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8975101,
+          50.0586528
+        ]
+      },
+      "id": "node/3833811680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301381120",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Benedyktowicza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8895834,
+          50.0475241
+        ]
+      },
+      "id": "node/4301381120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301381121",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Benedyktowicza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8897027,
+          50.0476386
+        ]
+      },
+      "id": "node/4301381121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301387534",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8960899,
+          50.0531386
+        ]
+      },
+      "id": "node/4301387534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4330541429",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Azory",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9089316,
+          50.0864921
+        ]
+      },
+      "id": "node/4330541429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4330542762",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Gnieźnieńska",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9060099,
+          50.0835189
+        ]
+      },
+      "id": "node/4330542762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562293905",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Młyńskie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9741992,
+          50.0800209
+        ]
+      },
+      "id": "node/4562293905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4900504918",
+        "bench": "yes",
+        "bus": "yes",
+        "bus_numbers": "174;204;244",
+        "name": "Bieżanowska",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0646.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.978981,
+          50.0238341
+        ]
+      },
+      "id": "node/4900504918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972009975",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Os. Oświecenia",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9888286,
+          50.0888392
+        ]
+      },
+      "id": "node/4972009975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972016574",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Słoneckiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9768999,
+          50.0895004
+        ]
+      },
+      "id": "node/4972016574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972021354",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Barei",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.972942,
+          50.0890374
+        ]
+      },
+      "id": "node/4972021354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972021456",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Barei",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9730278,
+          50.0882992
+        ]
+      },
+      "id": "node/4972021456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972023824",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Miechowity",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9704817,
+          50.0833764
+        ]
+      },
+      "id": "node/4972023824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972024209",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Miechowity",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9711488,
+          50.0831556
+        ]
+      },
+      "id": "node/4972024209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972024434",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Młyńskie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9727961,
+          50.0802688
+        ]
+      },
+      "id": "node/4972024434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4972025987",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Młyńskie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9729447,
+          50.0814809
+        ]
+      },
+      "id": "node/4972025987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4975826409",
+        "bus": "yes",
+        "name": "Bora-Komorowskiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9784813,
+          50.0857902
+        ]
+      },
+      "id": "node/4975826409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4975833061",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Olsza II",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9701696,
+          50.0854149
+        ]
+      },
+      "id": "node/4975833061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4975833787",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Olsza II",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.968839,
+          50.0848425
+        ]
+      },
+      "id": "node/4975833787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4975844704",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Opolska Estakada",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9535668,
+          50.0865696
+        ]
+      },
+      "id": "node/4975844704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993281882",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Majora",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9653952,
+          50.0884016
+        ]
+      },
+      "id": "node/4993281882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993281883",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Majora",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9635017,
+          50.0884146
+        ]
+      },
+      "id": "node/4993281883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993285112",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bosaków",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9643666,
+          50.0832787
+        ]
+      },
+      "id": "node/4993285112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993295801",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bosaków",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9631046,
+          50.0822805
+        ]
+      },
+      "id": "node/4993295801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993298619",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Brogi",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9594116,
+          50.0796595
+        ]
+      },
+      "id": "node/4993298619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993299201",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wileńska",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9538045,
+          50.0823359
+        ]
+      },
+      "id": "node/4993299201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5013333770",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Grota Roweckiego",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0526.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.921004,
+          50.0314467
+        ]
+      },
+      "id": "node/5013333770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5046685572",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ugorek",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9834194,
+          50.077927
+        ]
+      },
+      "id": "node/5046685572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5046685573",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ugorek",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9841834,
+          50.0770842
+        ]
+      },
+      "id": "node/5046685573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5047045727",
+        "bus": "yes",
+        "name": "Cichy Kącik",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9021796,
+          50.0621802
+        ]
+      },
+      "id": "node/5047045727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5047045728",
+        "bus": "yes",
+        "name": "Cichy Kącik",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9025559,
+          50.0627682
+        ]
+      },
+      "id": "node/5047045728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052370287",
+        "bus": "yes",
+        "name": "Wybickiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9264002,
+          50.0838226
+        ]
+      },
+      "id": "node/5052370287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5052370288",
+        "bus": "yes",
+        "name": "Wybickiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9276394,
+          50.083943
+        ]
+      },
+      "id": "node/5052370288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5053223268",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dobrego Pasterza",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9582184,
+          50.0889614
+        ]
+      },
+      "id": "node/5053223268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054873139",
+        "bus": "yes",
+        "name": "Czerwieńskiego",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9024361,
+          50.08394
+        ]
+      },
+      "id": "node/5054873139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5062877007",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dobrego Pasterza",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9585579,
+          50.0896718
+        ]
+      },
+      "id": "node/5062877007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5062877008",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dobrego Pasterza",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9582932,
+          50.0896764
+        ]
+      },
+      "id": "node/5062877008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5173304277",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Meissnera",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9796026,
+          50.0747604
+        ]
+      },
+      "id": "node/5173304277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5173870654",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Olszecka",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9685411,
+          50.088615
+        ]
+      },
+      "id": "node/5173870654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5174846786",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Barei",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9738809,
+          50.0896364
+        ]
+      },
+      "id": "node/5174846786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5175681437",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Politechnika",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9446734,
+          50.0711172
+        ]
+      },
+      "id": "node/5175681437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5175691540",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dobrego Pasterza",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9589624,
+          50.0886132
+        ]
+      },
+      "id": "node/5175691540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5177231706",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Os. Oświecenia",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9875517,
+          50.0893368
+        ]
+      },
+      "id": "node/5177231706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5189093398",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Opolska Estakada",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9554835,
+          50.0867602
+        ]
+      },
+      "id": "node/5189093398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5192424172",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Uniwersytet Ekonomiczny",
+        "operator": "MPK Kraków",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9530555,
+          50.0677492
+        ]
+      },
+      "id": "node/5192424172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5192424173",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Uniwersytet Ekonomiczny",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9516994,
+          50.0682958
+        ]
+      },
+      "id": "node/5192424173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5213538648",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sławka",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9598832,
+          50.025974
+        ]
+      },
+      "id": "node/5213538648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5216322996",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Barei",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9749218,
+          50.0890675
+        ]
+      },
+      "id": "node/5216322996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5220680143",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ofiar Dąbia",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9754106,
+          50.0590397
+        ]
+      },
+      "id": "node/5220680143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5220742812",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Saska",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9842727,
+          50.0449885
+        ]
+      },
+      "id": "node/5220742812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268874383",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kuklińskiego",
+        "operator": "MPK Kraków",
+        "public_transport": "stop_position",
+        "url": "http://rozklady.mpk.krakow.pl/aktualne/p/p0670.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9743588,
+          50.044761
+        ]
+      },
+      "id": "node/5268874383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5281197952",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "TAURON Arena Kraków Wieczysta",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9838545,
+          50.0716464
+        ]
+      },
+      "id": "node/5281197952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5283222571",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Brogi",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9610638,
+          50.079841
+        ]
+      },
+      "id": "node/5283222571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5283289626",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Akacjowa",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9769424,
+          50.0814945
+        ]
+      },
+      "id": "node/5283289626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5284794567",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rondo Mogilskie",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9579008,
+          50.0670307
+        ]
+      },
+      "id": "node/5284794567"
+    }
+  ]
+}
