@@ -46,12 +46,12 @@ public class JSONReader<T> {
         return  objects;
     }
 
-    public static List<Position> readCoordinatesFromFile(String coordinatesPath) {
+    public static List<List<Position>> readCoordinatesFromFile(String coordinatesPath) {
         List<String> lineIds = Arrays.asList("233646661", "233646659", "40716891", "234565950", "233730605", "233636402", "233684784", "233684791",
                 "459837594", "233673945", "234098807", "233673929", "233673928", "233678923", "178281419", "233738205", "165267406", "165267407",
                 "158090846", "164771723", "234461523", "164771717", "192495229", "77355441", "61581321", "62249344", "206331501", "140579095",
                 "20195470", "26198757", "165557663", "26197704", "459893232", "117064186", "117064187", "459893234", "26197702", "165557661");
-        List<Position> positions = new ArrayList<>();
+        List<List<Position>> positions = new ArrayList<>();
         Gson gson = new Gson();
         JSONParser parser = new JSONParser();
         try {
@@ -60,13 +60,14 @@ public class JSONReader<T> {
             for (int i = 0; i < features.size(); i++) {
                 JSONObject element = (JSONObject) features.get(i);
                 if (lineIds.contains(element.get("id").toString().substring(4))) {
+                    positions.add(new ArrayList<>());
                     JSONObject geometry = (JSONObject) element.get("geometry");
                     JSONArray coordinates = (JSONArray) geometry.get("coordinates");
                     for (int j = 0; j < coordinates.size(); j++) {
                         JSONArray positionArray = (JSONArray) coordinates.get(j);
                         double x = Double.parseDouble(positionArray.get(0).toString());
                         double y = Double.parseDouble(positionArray.get(1).toString());
-                        positions.add(new Position(x, y));
+                        positions.get(positions.size() - 1).add(new Position(x, y));
                     }
                 }
             }
