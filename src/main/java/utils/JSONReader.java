@@ -1,15 +1,20 @@
 package utils;
 
 import com.google.gson.Gson;
-import com.pl.edu.agh.tramsim.view.MainApplication;
-import elements.Stop;
+import elements.Position;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -39,6 +44,39 @@ public class JSONReader<T> {
             ex.printStackTrace();
         }
         return  objects;
+    }
+
+    public static List<List<Position>> readCoordinatesFromFile(String coordinatesPath) {
+        List<String> lineIds = Arrays.asList("233646661", "233646659", "40716891", "234565950", "233730605", "233636402", "233684784", "233684791",
+                "459837594", "233673945", "234098807", "233673929", "233673928", "233678923", "178281419", "233738205", "165267406", "165267407",
+                "158090846", "164771723", "234461523", "164771717", "192495229", "77355441", "61581321", "62249344", "206331501", "140579095",
+                "20195470", "26198757", "165557663", "26197704", "459893232", "117064186", "117064187", "459893234", "26197702", "165557661");
+        List<List<Position>> positions = new ArrayList<>();
+        Gson gson = new Gson();
+        JSONParser parser = new JSONParser();
+        try {
+            JSONObject jsonObject = (JSONObject) parser.parse(new FileReader("src/main/resources/export.json"));
+            JSONArray features = (JSONArray) jsonObject.get("features");
+            for (int i = 0; i < features.size(); i++) {
+                JSONObject element = (JSONObject) features.get(i);
+                if (lineIds.contains(element.get("id").toString().substring(4))) {
+                    positions.add(new ArrayList<>());
+                    JSONObject geometry = (JSONObject) element.get("geometry");
+                    JSONArray coordinates = (JSONArray) geometry.get("coordinates");
+                    for (int j = 0; j < coordinates.size(); j++) {
+                        JSONArray positionArray = (JSONArray) coordinates.get(j);
+                        double x = Double.parseDouble(positionArray.get(0).toString());
+                        double y = Double.parseDouble(positionArray.get(1).toString());
+                        positions.get(positions.size() - 1).add(new Position(x, y));
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return positions;
     }
 
 }
