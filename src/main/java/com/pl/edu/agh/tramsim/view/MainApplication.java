@@ -9,7 +9,11 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.xml.sax.SAXException;
+import utils.XmlParser;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
 public class MainApplication extends Application {
@@ -19,9 +23,12 @@ public class MainApplication extends Application {
     private ImageView iv1 = new ImageView();
     private ImageView iv2 = new ImageView();
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException, TransformerException {
         logger.info("Starting app");
-        launch(args);
+        XmlParser xmlParser = new XmlParser();
+        xmlParser.readFile();
+
+        //launch(args);
     }
 
     @Override
