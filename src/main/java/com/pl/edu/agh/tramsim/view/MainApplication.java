@@ -34,7 +34,7 @@ public class MainApplication extends Application {
         XmlParser xmlParser = new XmlParser();
         xmlParser.readFile();
 
-        //launch(args);
+        launch(args);
     }
 
     @Override
